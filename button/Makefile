@@ -6,4 +6,4 @@ all:
 	$(MAKE) -C $(KDIR) M=$(PWD)
 
 clean:
-	rm -rf *.ko *.order *.symvers *.cmd *.o *.mod.c *.tmp_versions
+	rm -rf *.ko *.order *.symvers *.cmd *.o *.mod.c *.tmp_versions .*.cmd .*.d
